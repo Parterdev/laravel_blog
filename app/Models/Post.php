@@ -38,7 +38,7 @@ class Post extends Model
      *
      * @return array
      */
-    public function sluggable()
+    public function sluggable() : array
     {
         /** Toma el campo titulo y lo convierte en un slug
          * Al haber una accion de guardado, el titulo tambien se
