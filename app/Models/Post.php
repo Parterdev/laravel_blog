@@ -72,6 +72,6 @@ class Post extends Model
         //Si la imagen existe
         if ($this->image)
             //Accedemos al public/storage
-            return url("storage:link/$this->image");
+            return url("storage/$this->image");
     }
 }
