@@ -11,7 +11,7 @@
                   <div class="form-group">
                     @if (!empty($post->image))
                       <img 
-                        src="{{ $post->get_image }}" 
+                        src="{{ asset("storage/$post->image") }}" 
                         style="width: 70%; height: 80%" 
                         class="rounded"
                         alt="image"
